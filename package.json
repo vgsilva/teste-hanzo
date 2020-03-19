@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next ./app",
     "build": "next build",
-    "start": "next start"
+    "start": "next ./app start"
   },
   "repository": {
     "type": "git",

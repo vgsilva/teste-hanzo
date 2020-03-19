@@ -7,7 +7,7 @@ const usersJson = `https://jsonplaceholder.typicode.com/users`;
 const Index = ({ posts, users }) => (
   <>
     <section>
-      <h1>Posts</h1>
+      <h1 className="titleDefault">Posts</h1>
       <ul>
         {posts.map(post => (
           <li key={post.title}>
